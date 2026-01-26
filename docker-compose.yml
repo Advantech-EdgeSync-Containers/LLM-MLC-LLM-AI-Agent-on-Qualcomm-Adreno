@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   mlc-llm-agent-service:
-    image: harbor.edgesync.cloud/nagarro-container-images/llm-mlc-llm-ai-agent-on-qualcomm-adreno:v1
+    image: edgesync.azurecr.io/advantech/llm-mlc-llm-ai-agent-on-qualcomm-adreno:1.3.0-Ubuntu22.04-ARM
     container_name: llm-mlc-llm-ai-agent-on-qualcomm-adreno
     stdin_open: true
     tty: true
